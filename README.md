@@ -8,12 +8,10 @@ Whether you're a designer, developer, photographer, artist, author, musician, or
 
 [Join the community on Slack](https://ajaykarwal.typeform.com/to/GQnjFH)
 
-
+<br><br>
 
 
 
 ---
-
-## Who made this?
 
 **Makr** is a side project by <a href="http://twitter.com/ajaykarwal">@ajaykarwal</a>
