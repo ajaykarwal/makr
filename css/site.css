@@ -1,0 +1,91 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  padding: 20px;
+  background: #1c1d1f;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+header[role="banner"] {
+  margin-bottom: 40px;
+}
+header[role="banner"] p {
+  font-size: 1.4rem;
+}
+footer[role="contentinfo"] {
+  width: 96%;
+  padding: 40px 0;
+  margin: 100px 2% 0 2%;
+  text-align: center;
+  border-top: 1px solid #333;
+  font-size: 1rem;
+}
+a {
+  color: #2aaed1;
+}
+h1 {
+  font-size: 4rem;
+}
+p {
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+}
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+pre, code {
+  font-family: 'Ubuntu Mono', monospace;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2aaed1;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  vertical-align: middle;
+  line-height: normal;
+  border-radius: 6px;
+}
+.slack-logo {
+  display: block;
+  width: 120px;
+  vertical-align: middle;
+  margin: auto;
+}
+.share-buttons {
+  margin-top: 100px;
+}
+.share-buttons li {
+  display: inline;
+  margin: 0 10px;
+}
+@media only screen and (min-width:800px) {
+  footer[role="contentinfo"] {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media only screen and (min-width:700px) and (orientation:portrait) {
+  body {
+    margin-top: 100px;
+  }
+}
+@media only screen and (min-width:1400px) {
+  body {
+    margin-top: 100px;
+  }
+}
