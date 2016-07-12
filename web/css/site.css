@@ -23,9 +23,19 @@ footer[role="contentinfo"] {
   margin: 100px 2% 0 2%;
   text-align: center;
   border-top: 1px solid #333;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
-a {
+footer[role="contentinfo"] p {
+  font-size: inherit;
+  padding:0;
+  margin:0;
+}
+footer[role="contentinfo"] a {
+  text-decoration: none;
+}
+
+a,
+h1 span {
   color: #2aaed1;
 }
 h1 {
