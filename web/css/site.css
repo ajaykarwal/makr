@@ -3,15 +3,20 @@
 }
 body {
   margin: auto;
-  padding: 20px;
-  background: #1c1d1f;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
+  font: normal 300 15px/1.5em 'Ubuntu', sans-serif;
   color: #fff;
+  border-top:6px solid #2aaed1;
+  padding-top: 100px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c1d1f+0,292b2d+100 */
+  background: #1c1d1f; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1c1d1f 0%, #292b2d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #1c1d1f 0%,#292b2d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #1c1d1f 0%,#292b2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1d1f', endColorstr='#292b2d',GradientType=0 ); /* IE6-9 */
+
 }
 header[role="banner"] {
+  text-align: center;
   margin-bottom: 40px;
 }
 header[role="banner"] p {
@@ -19,10 +24,9 @@ header[role="banner"] p {
 }
 footer[role="contentinfo"] {
   width: 96%;
-  padding: 40px 0;
-  margin: 100px 2% 0 2%;
+  padding: 40px 20px;
+  margin: 0 2% 0 2%;
   text-align: center;
-  border-top: 1px solid #333;
   font-size: 0.875rem;
 }
 footer[role="contentinfo"] p {
@@ -34,12 +38,49 @@ footer[role="contentinfo"] a {
   text-decoration: none;
 }
 
+main {
+}
+.container {
+  max-width: 1000px;
+  margin:auto;
+}
+.intro {
+  padding: 20px ;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.more-info {
+  padding: 20px ;
+  background-color: #2aaed1;
+}
+@media only screen and (min-width:700px) {
+  .intro {
+    padding: 40px;
+  }
+  .more-info {
+    padding: 40px;
+  }
+}
+
+.more-info h2:first-of-type {
+  margin-top:0;
+}
+
+hr {
+    background-color:#333;
+    border:0;
+    height:1px;
+}
 a,
 h1 span {
   color: #2aaed1;
 }
 h1 {
   font-size: 4rem;
+}
+h2,h3,h4,h5,h6 {
+  margin-top:2em;
+  line-height: 1.5em;
 }
 p {
   font-size: 1rem;
@@ -83,19 +124,9 @@ img {
   display: inline;
   margin: 0 10px;
 }
-@media only screen and (min-width:800px) {
+/*@media only screen and (min-width:800px) {
   footer[role="contentinfo"] {
-    position: absolute;
+    position: fixed;
     bottom: 0;
   }
-}
-@media only screen and (min-width:700px) and (orientation:portrait) {
-  body {
-    margin-top: 100px;
-  }
-}
-@media only screen and (min-width:1600px) {
-  body {
-    margin-top: 100px;
-  }
-}
+}*/
